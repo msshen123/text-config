@@ -7,6 +7,12 @@ spring:
   thymeleaf:
     cache: false
     mode: LEGACYHTML5
+  
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: 2004
 
   redis:
     host: 127.0.0.1
